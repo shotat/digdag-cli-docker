@@ -1,0 +1,7 @@
+#!/bin/sh
+
+digdag_image="shotat/digdag-cli-docker:latest"
+
+docker run --rm \
+  -v "$(pwd):/app:ro" \
+  "${digdag_image}" "$@"

@@ -3,5 +3,5 @@
 ## Usage
 
 ```sh
-$ docker run --rm shotat/digdag-cli-docker:latest
+$ bin/digdag version
 ```
